@@ -4,7 +4,7 @@ var Datastore = require("nedb");
 var db = new Datastore({ filename: "datafile", autoload: true });
 
 // replace the value below with the Telegram token you receive from @BotFather
-var token = "5450017702:AAGbj-gsg4dZDVj_AUSRyZFhiUfDKAsW5Q4";
+var token = "Token number";
 
 // Create a bot that uses 'polling' to fetch new updates
 var bot = new TelegramBot(token, { polling: true });
